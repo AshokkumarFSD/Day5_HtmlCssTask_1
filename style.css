@@ -1,0 +1,55 @@
+.top-level-container {
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.event-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.form-action {
+    display: flex;
+    justify-content: center;
+    gap: 1rem
+}
+
+.event-image {
+    width: 100%;
+    height: 70%;
+}
+
+.image-container{
+    width: 20%;
+    align-self: center;
+}
+
+
+.user-data{
+    width: 80%;
+    padding: 0.5rem;
+}
+
+.single-input{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px ;
+    margin: 5px;
+}
+
+.input-val{
+   width: 30vw
+}
+
+.input-label{
+    width: 20vw;
+    text-align: end;
+    margin-right: 10px;
+ }
